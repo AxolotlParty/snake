@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://coo1j43mu8utk"]
+
+[ext_resource type="Script" uid="uid://da4uycunbcd30" path="res://Stages/Poops/Poop_Scene.gd" id="1_53c4h"]
+[ext_resource type="PackedScene" uid="uid://dooe844e2docw" path="res://Entities/Background/Background.tscn" id="2_82fcm"]
+
+[node name="PoopScene" type="Node2D"]
+script = ExtResource("1_53c4h")
+
+[node name="Background" parent="." instance=ExtResource("2_82fcm")]
+light_colour = Color(0.584314, 0.741176, 0.545098, 1)
+dark_colour = Color(0.494118, 0.631373, 0.466667, 1)

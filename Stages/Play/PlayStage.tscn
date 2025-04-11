@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://3h1hhr1gwvld"]
+
+[ext_resource type="Script" uid="uid://m04g1n3jlavw" path="res://Stages/Play/PlayStage.gd" id="1_ktqwj"]
+[ext_resource type="PackedScene" uid="uid://cnbeap4h5jene" path="res://Entities/CellRenderer/CellRenderer.tscn" id="3_m3cwf"]
+
+[node name="PlayStage" type="Node2D"]
+script = ExtResource("1_ktqwj")
+
+[node name="Background" parent="." instance=ExtResource("3_m3cwf")]
+light_colour = Color(0.584314, 0.741176, 0.545098, 1)
+dark_colour = Color(0.494118, 0.631373, 0.466667, 1)
+
+[node name="Snake" parent="." instance=ExtResource("3_m3cwf")]
+light_colour = Color(0.667819, 0.778056, 1, 1)
+dark_colour = Color(0.279234, 0.000894558, 0.616952, 1)

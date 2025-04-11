@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cnbeap4h5jene"]
+
+[ext_resource type="Script" uid="uid://drfvpbma2hk18" path="res://Entities/CellRenderer/CellRenderer.gd" id="1_4ofmw"]
+
+[node name="CellRenderer" type="Node2D"]
+script = ExtResource("1_4ofmw")
