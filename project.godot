@@ -11,10 +11,14 @@ config_version=5
 [application]
 
 config/name="Snake"
-run/main_scene="uid://3h1hhr1gwvld"
+run/main_scene="uid://b8lwglv7a1a7c"
 config/features=PackedStringArray("4.4", "Forward Plus")
 boot_splash/image="uid://47qew0nhqc5f"
 config/icon="res://icon.svg"
+
+[autoload]
+
+FadeTransition="*res://Common/SceneTransitions/FadeTransition.tscn"
 
 [display]
 
